@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 450 192" width="450" height="192" role="img" aria-label="YUSEI">
+<title>YUSEI</title>
+<style>
+.main  { color: #e6edf3; animation: jitter 4s infinite steps(1); }
+.red   { color: #ff2e63; mix-blend-mode: screen; animation: shift-r 4s infinite steps(1); }
+.cyan  { color: #08f7fe; mix-blend-mode: screen; animation: shift-c 4s infinite steps(1); }
+.slice { color: #e6edf3; opacity: 0; }
+.s1 { animation: slice1 4s infinite steps(1); }
+.s2 { animation: slice2 4s infinite steps(1); }
+.screen { animation: flicker 4s infinite steps(1); }
+
+@keyframes jitter {
+  0%, 100% { transform: translate(0, 0); }
+  12% { transform: translate(-2px, 1px); }
+  14% { transform: translate(3px, -1px); }
+  16% { transform: translate(0, 0); }
+  62% { transform: translate(2px, 0); }
+  64% { transform: translate(0, 0); }
+}
+@keyframes shift-r {
+  0%, 100% { transform: translate(-1px, 0); }
+  11% { transform: translate(-7px, 1px); }
+  14% { transform: translate(5px, -2px); }
+  17% { transform: translate(-1px, 0); }
+  61% { transform: translate(-6px, 0); }
+  64% { transform: translate(-1px, 0); }
+}
+@keyframes shift-c {
+  0%, 100% { transform: translate(1px, 0); }
+  11% { transform: translate(6px, -1px); }
+  14% { transform: translate(-5px, 2px); }
+  17% { transform: translate(1px, 0); }
+  61% { transform: translate(6px, 0); }
+  64% { transform: translate(1px, 0); }
+}
+@keyframes slice1 {
+  0%, 100% { opacity: 0; }
+  11% { opacity: 1; clip-path: inset(18% 0 62% 0); transform: translate(-14px, 0); }
+  13% { opacity: 1; clip-path: inset(55% 0 30% 0); transform: translate(10px, 0); }
+  15% { opacity: 0; }
+  61% { opacity: 1; clip-path: inset(40% 0 45% 0); transform: translate(12px, 0); }
+  63% { opacity: 0; }
+}
+@keyframes slice2 {
+  0%, 100% { opacity: 0; }
+  12% { opacity: 1; clip-path: inset(68% 0 14% 0); transform: translate(9px, 0); }
+  14% { opacity: 1; clip-path: inset(30% 0 58% 0); transform: translate(-11px, 0); }
+  16% { opacity: 0; }
+  62% { opacity: 1; clip-path: inset(62% 0 22% 0); transform: translate(-8px, 0); }
+  64% { opacity: 0; }
+}
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  13% { opacity: 0.8; }
+  14% { opacity: 1; }
+  62% { opacity: 0.85; }
+  63% { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+</style>
+<defs>
+<g id="art"><g fill="currentColor"><rect x="40" y="36" width="10" height="20"/><rect x="50" y="36" width="10" height="20"/><rect x="100" y="36" width="10" height="20"/><rect x="110" y="36" width="10" height="20"/><rect x="130" y="36" width="10" height="20"/><rect x="140" y="36" width="10" height="20"/><rect x="190" y="36" width="10" height="20"/><rect x="200" y="36" width="10" height="20"/><rect x="220" y="36" width="10" height="20"/><rect x="230" y="36" width="10" height="20"/><rect x="240" y="36" width="10" height="20"/><rect x="250" y="36" width="10" height="20"/><rect x="260" y="36" width="10" height="20"/><rect x="270" y="36" width="10" height="20"/><rect x="280" y="36" width="10" height="20"/><rect x="300" y="36" width="10" height="20"/><rect x="310" y="36" width="10" height="20"/><rect x="320" y="36" width="10" height="20"/><rect x="330" y="36" width="10" height="20"/><rect x="340" y="36" width="10" height="20"/><rect x="350" y="36" width="10" height="20"/><rect x="360" y="36" width="10" height="20"/><rect x="380" y="36" width="10" height="20"/><rect x="390" y="36" width="10" height="20"/><rect x="50" y="56" width="10" height="20"/><rect x="60" y="56" width="10" height="20"/><rect x="90" y="56" width="10" height="20"/><rect x="100" y="56" width="10" height="20"/><rect x="130" y="56" width="10" height="20"/><rect x="140" y="56" width="10" height="20"/><rect x="190" y="56" width="10" height="20"/><rect x="200" y="56" width="10" height="20"/><rect x="220" y="56" width="10" height="20"/><rect x="230" y="56" width="10" height="20"/><rect x="300" y="56" width="10" height="20"/><rect x="310" y="56" width="10" height="20"/><rect x="380" y="56" width="10" height="20"/><rect x="390" y="56" width="10" height="20"/><rect x="60" y="76" width="10" height="20"/><rect x="70" y="76" width="10" height="20"/><rect x="80" y="76" width="10" height="20"/><rect x="90" y="76" width="10" height="20"/><rect x="130" y="76" width="10" height="20"/><rect x="140" y="76" width="10" height="20"/><rect x="190" y="76" width="10" height="20"/><rect x="200" y="76" width="10" height="20"/><rect x="220" y="76" width="10" height="20"/><rect x="230" y="76" width="10" height="20"/><rect x="240" y="76" width="10" height="20"/><rect x="250" y="76" width="10" height="20"/><rect x="260" y="76" width="10" height="20"/><rect x="270" y="76" width="10" height="20"/><rect x="280" y="76" width="10" height="20"/><rect x="300" y="76" width="10" height="20"/><rect x="310" y="76" width="10" height="20"/><rect x="320" y="76" width="10" height="20"/><rect x="330" y="76" width="10" height="20"/><rect x="340" y="76" width="10" height="20"/><rect x="380" y="76" width="10" height="20"/><rect x="390" y="76" width="10" height="20"/><rect x="70" y="96" width="10" height="20"/><rect x="80" y="96" width="10" height="20"/><rect x="130" y="96" width="10" height="20"/><rect x="140" y="96" width="10" height="20"/><rect x="190" y="96" width="10" height="20"/><rect x="200" y="96" width="10" height="20"/><rect x="270" y="96" width="10" height="20"/><rect x="280" y="96" width="10" height="20"/><rect x="300" y="96" width="10" height="20"/><rect x="310" y="96" width="10" height="20"/><rect x="380" y="96" width="10" height="20"/><rect x="390" y="96" width="10" height="20"/><rect x="70" y="116" width="10" height="20"/><rect x="80" y="116" width="10" height="20"/><rect x="140" y="116" width="10" height="20"/><rect x="150" y="116" width="10" height="20"/><rect x="160" y="116" width="10" height="20"/><rect x="170" y="116" width="10" height="20"/><rect x="180" y="116" width="10" height="20"/><rect x="190" y="116" width="10" height="20"/><rect x="220" y="116" width="10" height="20"/><rect x="230" y="116" width="10" height="20"/><rect x="240" y="116" width="10" height="20"/><rect x="250" y="116" width="10" height="20"/><rect x="260" y="116" width="10" height="20"/><rect x="270" y="116" width="10" height="20"/><rect x="280" y="116" width="10" height="20"/><rect x="300" y="116" width="10" height="20"/><rect x="310" y="116" width="10" height="20"/><rect x="320" y="116" width="10" height="20"/><rect x="330" y="116" width="10" height="20"/><rect x="340" y="116" width="10" height="20"/><rect x="350" y="116" width="10" height="20"/><rect x="360" y="116" width="10" height="20"/><rect x="380" y="116" width="10" height="20"/><rect x="390" y="116" width="10" height="20"/></g><path d="M60,43.5H67.5V56M60,48.5H62.5V56M120,43.5H127.5V56M120,48.5H122.5V56M150,43.5H157.5V56M150,48.5H152.5V56M210,43.5H217.5V56M210,48.5H212.5V56M290,43.5H297.5V56M290,48.5H292.5V56M370,43.5H377.5V56M370,48.5H372.5V56M400,43.5H407.5V56M400,48.5H402.5V56M42.5,56V68.5H50M47.5,56V63.5H50M70,63.5H77.5V76M70,68.5H72.5V76M120,63.5H112.5V76M120,68.5H117.5V76M127.5,56V68.5H120M122.5,56V63.5H120M152.5,56V76M157.5,56V76M212.5,56V76M217.5,56V76M250,63.5H242.5V76M250,68.5H247.5V76M250,63.5H260M250,68.5H260M260,63.5H270M260,68.5H270M270,63.5H280M270,68.5H280M280,63.5H290M280,68.5H290M297.5,56V68.5H290M292.5,56V63.5H290M330,63.5H322.5V76M330,68.5H327.5V76M330,63.5H340M330,68.5H340M340,63.5H350M340,68.5H350M350,63.5H360M350,68.5H360M360,63.5H370M360,68.5H370M377.5,56V68.5H370M372.5,56V63.5H370M402.5,56V76M407.5,56V76M52.5,76V88.5H60M57.5,76V83.5H60M110,83.5H102.5V96M110,88.5H107.5V96M117.5,76V88.5H110M112.5,76V83.5H110M152.5,76V96M157.5,76V96M212.5,76V96M217.5,76V96M290,83.5H297.5V96M290,88.5H292.5V96M350,83.5H357.5V96M350,88.5H352.5V96M402.5,76V96M407.5,76V96M62.5,96V108.5H70M67.5,96V103.5H70M100,103.5H92.5V116M100,108.5H97.5V116M107.5,96V108.5H100M102.5,96V103.5H100M152.5,96V116M157.5,96V116M212.5,96V116M217.5,96V116M222.5,96V108.5H230M227.5,96V103.5H230M230,103.5H240M230,108.5H240M240,103.5H250M240,108.5H250M250,103.5H260M250,108.5H260M260,103.5H270M260,108.5H270M292.5,96V116M297.5,96V116M330,103.5H322.5V116M330,108.5H327.5V116M330,103.5H340M330,108.5H340M340,103.5H350M340,108.5H350M357.5,96V108.5H350M352.5,96V103.5H350M402.5,96V116M407.5,96V116M92.5,116V136M97.5,116V136M132.5,116V128.5H140M137.5,116V123.5H140M210,123.5H202.5V136M210,128.5H207.5V136M217.5,116V128.5H210M212.5,116V123.5H210M292.5,116V136M297.5,116V136M370,123.5H377.5V136M370,128.5H372.5V136M402.5,116V136M407.5,116V136M72.5,136V148.5H80M77.5,136V143.5H80M80,143.5H90M80,148.5H90M97.5,136V148.5H90M92.5,136V143.5H90M142.5,136V148.5H150M147.5,136V143.5H150M150,143.5H160M150,148.5H160M160,143.5H170M160,148.5H170M170,143.5H180M170,148.5H180M180,143.5H190M180,148.5H190M190,143.5H200M190,148.5H200M207.5,136V148.5H200M202.5,136V143.5H200M222.5,136V148.5H230M227.5,136V143.5H230M230,143.5H240M230,148.5H240M240,143.5H250M240,148.5H250M250,143.5H260M250,148.5H260M260,143.5H270M260,148.5H270M270,143.5H280M270,148.5H280M280,143.5H290M280,148.5H290M297.5,136V148.5H290M292.5,136V143.5H290M302.5,136V148.5H310M307.5,136V143.5H310M310,143.5H320M310,148.5H320M320,143.5H330M320,148.5H330M330,143.5H340M330,148.5H340M340,143.5H350M340,148.5H350M350,143.5H360M350,148.5H360M360,143.5H370M360,148.5H370M377.5,136V148.5H370M372.5,136V143.5H370M382.5,136V148.5H390M387.5,136V143.5H390M390,143.5H400M390,148.5H400M407.5,136V148.5H400M402.5,136V143.5H400" fill="none" stroke="currentColor" stroke-width="1.4"/></g>
+<pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+<rect width="4" height="2" fill="#000" opacity="0.2"/>
+</pattern>
+</defs>
+<rect width="450" height="192" rx="12" fill="#0d1117"/>
+<g class="screen">
+<use href="#art" xlink:href="#art" class="red"/>
+<use href="#art" xlink:href="#art" class="cyan"/>
+<use href="#art" xlink:href="#art" class="main"/>
+<use href="#art" xlink:href="#art" class="slice s1"/>
+<use href="#art" xlink:href="#art" class="slice s2"/>
+</g>
+<rect width="450" height="192" rx="12" fill="url(#scanlines)"/>
+</svg>

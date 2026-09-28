@@ -1,4 +1,6 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/yusei-glitch.svg" alt="YUSEI" width="100%" />
+</p>
 
 <!--
 **yuseiwnl/yuseiwnl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
